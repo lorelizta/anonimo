@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  color: inherit;
+}
+
+:root {
+  --primary-font: "Montserrat", sans-serif;
+  --regular-weight: 400;
+  --bold-weight: 700;
+  --primary-color: #cc212a;
+  --light-color: white;
+  --dark-color: black;
+  --regular-weight: 400;
+  --bold-weight: 700;
+}
+body {
+  font-family: var(--primary-font);
+}
+h2 {
+  margin: 50;
+  color: rgb(84, 136, 233);
+}
+/* .wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+} */
+
+/*MAIN*/
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-title {
+  color: var(--primary-color);
+  text-transform: capitalize;
+}
+.main-title span {
+  display: block;
+  text-align: center;
+}
+
+/*Footer*/
+
+.footer {
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
+  font-style: oblique;
+  text-align: center;
+  font-size: 30px;
+  animation-name: example;
+  animation-duration: 6s;
+  text-shadow: 2px 2px 5px rgb(110, 50, 50);
+}
+@keyframes example {
+  20% {
+    background: size 10px;
+    left: 100px;
+    top: 50px;
+  }
+  30% {
+    background-size: 8px;
+    left: 100px;
+    top: 200px;
+  }
+  40% {
+    background-size: 10px;
+    left: 0px;
+    top: 200px;
+  }
+  60% {
+    background-size: 10px;
+    left: 0px;
+    top: 200px;
+  }
+  85% {
+    background-size: 8px;
+    left: 100px;
+    top: 200px;
+  }
+  /* from {
+    background-color: blue;
+  }
+  to {
+    background-color: rgb(255, 145, 0);
+  } */
+}
+/* .footer-logo {
+  height: 100px;
+  width: 100px;
+
+  text-align: center; */
+/* line-height: 20px;
+  color: var(--light-color);
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+} */
+/* .footer .wrapper {
+  padding-top: 10px;
+} */
